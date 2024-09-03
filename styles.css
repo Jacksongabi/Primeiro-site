@@ -1,0 +1,84 @@
+body{
+    background-image: url(https://media.giphy.com/media/sBAS5GRT8PoCA/giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction:column ;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.imagem{
+     height: 300px;
+    width: 270px; 
+}
+
+.paragrafos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 10px;
+
+}
+
+.separaçao{
+    padding: 10px;
+}
+
+.separaçao2{
+    padding: 10px;
+}
+
+.paragrafos2{
+    color: white;
+}
+
+.Hollow-Gif{
+    height: 460px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    padding: 10px;
+    padding-top: 320px;
+
+}
+
+.nav ul{
+    display: flex;
+    padding: 30px;
+    border: solid white;
+    background-color: #d3d3d3;
+    border-radius: 5%;
+}
+
+
+.nav ul a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav ul a:hover{
+    background-color:  #a9a9a9;
+}
+
+
+
+.nav ul a li{
+    color: #1E3A8A;
+    padding: 20px;
+   list-style: none;
+   border: solid white 2px;
+   border-radius: 20%;
+}
